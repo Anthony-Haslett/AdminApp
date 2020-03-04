@@ -24,6 +24,10 @@ class Counter extends React.PureComponent<CounterProps> {
                     onClick={() => { this.props.increment(); }}>
                     Increment
                 </button>
+                <p> </p>
+                <p>
+                    I have worked with React and Redux in the past. I find that creating a simple counter is a good way to understand how they work.
+                </p>
             </React.Fragment>
         );
     }
